@@ -5,7 +5,7 @@ e-mail : dalssagi00@gmail.com
 title : two-sum
 description : Binary
 """
-'''
+
 class Solution:
     def getSum(self, a: int, b: int) -> int:
         if a==0 and b==0:
