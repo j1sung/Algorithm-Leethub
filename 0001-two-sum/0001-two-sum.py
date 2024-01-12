@@ -3,7 +3,7 @@ author : Ahn Ji Sung
 github : https://github.com/j1sung
 e-mail : dalssagi00@gmail.com
 title : two-sum
-description : 반복문, 리스트
+description : Array
 """
 #continue 사용시 
 class Solution:
