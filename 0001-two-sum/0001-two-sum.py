@@ -1,3 +1,5 @@
+
+#continue 사용시 
 class Solution:
     def twoSum(
         self, nums: List[int], target: int
@@ -13,3 +15,21 @@ class Solution:
                     output.append(i)
                     output.append(j)
                     return output
+                    
+#만약 break를 쓴다면 다음이 효율적인 코드!                    
+'''                    
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        output = []
+        for i in range(len(nums)):
+            i_val = nums[i]
+            for j in range(1, len(nums)):
+                j_val = nums[j]
+                if i == j:
+                    break
+                if i_val + j_val == target:
+                    output.append(i)
+                    output.append(j)
+                    return output
+'''										
+										
